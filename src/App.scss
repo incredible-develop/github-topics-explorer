@@ -1,0 +1,21 @@
+.App {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1024px;
+}
+
+.intro {
+  margin-bottom: 5rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid black;
+  display: flex;
+  justify-content: center;
+
+  p {
+    max-width: 512px;
+  }
+}
+
+h5 {
+  margin-bottom: 0;
+}
