@@ -1,36 +1,50 @@
 # GitHub Topic Explorer
 
-## Dev Notes
+## Introduction
 
-- Leave any technical notes on any libraries or tools you chose to use, the more detail the better.
+This project is a simple React.js SPA app, integrating GitHub GraphQL API to browse GitHub topics.
 
-### How to run app & test
+## Features
 
-In the project directory, you can run:
+- List GitHub topics searched by `react` keyword
+- Get number of stargazers and display per each topic (aggregate total sum in all subtopics)
+- Query by user-inputted keyword
+- Beautiful UI in React.js
+- Using public GitHub GraphQL API
 
-- `nvm use 14` if you aren't already using version 14.
+## Highlights
 
-- `npm install`
+- Dedicated react hook for `GetTopics` endpoint
+- Using Apollo client for interacting with GraphQL API
+- Styling by styled-components
+- Additional CSS styling by `saas`
 
-- `npm start`
+## Getting started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```bash
+# clone the repo
+git clone git@github.com:incredible-develop/github-topics-explore.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# cd into repo folder
+cd github-topics-explore
 
-- `npm run build`
+# select node version
+nvm use 14
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# install dependencies
+npm i
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# start development server
+npm start
 
-### Future Improvements
+# run unit tests
+npm test
 
-Feel free to elaborate on how you would improve any of the following topics
+# build production
+npm run build
+```
+
+### Future improvements
 
 - Code Structuring:
 
