@@ -2,9 +2,16 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar } from '@fortawesome/free-solid-svg-icons';
 
-//Styles
+// Styles
 import { TopicElement } from './styles';
 
+/**
+ * React Component to render a given topic
+ * @param {object} props
+ * @param {string} props.name - Name
+ * @param {number} props.stargazerCount - Number of stargazers
+ * @returns {ReactElement}
+ */
 export function Topic({ name, stargazerCount, setTopic }) {
   return (
     <TopicElement
